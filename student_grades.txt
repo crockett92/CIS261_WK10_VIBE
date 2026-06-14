@@ -1,0 +1,5 @@
+name|id|test1|test2|test3|average|grade
+Emma Davis|S004|94.00|88.00|91.00|91.00|A
+Lucas Brown|S005|78.50|81.00|79.50|79.67|C
+Olivia Wilson|S006|85.50|89.00|87.00|87.17|B
+Test User|S999|85.00|88.00|1.00|58.00|F
