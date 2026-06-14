@@ -132,7 +132,8 @@ def search_student(records: List[Dict[str, object]], name: str) -> List[Dict[str
 def display_search_results(results: List[Dict[str, object]], search_name: str) -> None:
     """Display search results."""
     if not results:
-        print(f"\nNo students found with name containing '{search_name}'.")
+        print(f"\n*** ERROR: No students found with name containing '{search_name}' ***")
+        print("Please check the name and try again, or view all records to see available students.")
         return
     
     print(f"\nSearch Results for '{search_name}'")
