@@ -207,7 +207,7 @@ def load_records(filename: str = "student_grades.txt") -> List[Dict[str, object]
     except IOError as e:
         print(f"Error loading records: {e}")
         return []
-
+# Main program loop
 
 
 def main() -> None:
